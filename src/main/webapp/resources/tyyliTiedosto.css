@@ -1,0 +1,46 @@
+h2 {
+    color: blue;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    float: left;
+    width: 500px;
+    height: 100px;
+    background-color: khaki;
+    text-align: center;
+}
+ul li ul {
+    position: absolute;
+    border-top: 1px solid ivory;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    visibility: hidden;
+}
+#formDiv {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+#countryBox ul li ul {
+    display: block;
+    text-align: left;
+    width: 300px;
+}
+#fooForm {
+    width: 500px;
+    height: 500px;
+}
+input[type="text"] {
+    border-radius: 0px;
+    border: none;
+    background: url("/resources/yC0rv.png") no-repeat;
+    background-size: 100% 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
